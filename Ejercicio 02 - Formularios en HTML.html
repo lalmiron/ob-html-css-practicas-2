@@ -5,7 +5,23 @@
     </head>
     <body>
         <form action="/">
-            
+            <div>
+                <label for="nombre">Nombre</label>
+                <input name="nombre" id="nombre" type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input name="edad" id="edad" type="number" min="0" max="150">
+            </div>
+            <br>
+            <div>
+                <label for="frasefav">Frase favorita</label>
+                <textarea name="frasefav" id="frasefav"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
         </form>
     </body>
 </html>
